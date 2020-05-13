@@ -219,6 +219,7 @@ body {
 
 .large-container {
   margin-top: 115px;
+  margin-bottom: 15px;
 }
 
 .large-container * {
@@ -232,6 +233,10 @@ body {
 
 .large-container .img-box img {
   width: 100%;
+}
+
+.large-container .column img {
+  width: 270px;
 }
 
 .footer {

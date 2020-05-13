@@ -1,6 +1,7 @@
 .large-container {
     margin-top: 115px;
-    
+    margin-bottom: 15px;
+
     * {
         flex-basis: 50%;
     }
@@ -14,6 +15,10 @@
         }
     }
 
-
+    .column {
+        img {
+            width: 270px;
+        }
+    }
 }
     
