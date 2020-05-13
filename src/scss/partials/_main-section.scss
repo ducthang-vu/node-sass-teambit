@@ -1,3 +1,15 @@
 .main-section {
     padding: 88px 0;
+
+    .row {
+        width: 860px;
+
+        .box {
+            flex-basis: 33%;
+
+            img {
+                width: 140px;
+            }
+        }
+    }
 }
