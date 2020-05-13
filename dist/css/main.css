@@ -217,6 +217,23 @@ body {
   width: 60px;
 }
 
+.large-container {
+  margin-top: 115px;
+}
+
+.large-container * {
+  flex-basis: 50%;
+}
+
+.large-container .img-box {
+  width: 768px;
+  overflow: hidden;
+}
+
+.large-container .img-box img {
+  width: 100%;
+}
+
 .footer {
   padding-top: 100px;
   padding-bottom: 55px;

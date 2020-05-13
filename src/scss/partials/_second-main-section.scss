@@ -1,0 +1,19 @@
+.large-container {
+    margin-top: 115px;
+    
+    * {
+        flex-basis: 50%;
+    }
+
+    .img-box {
+        width: 768px;
+        overflow: hidden;
+
+        img {
+            width: 100%;
+        }
+    }
+
+
+}
+    
