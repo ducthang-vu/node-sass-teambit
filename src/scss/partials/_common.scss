@@ -4,12 +4,18 @@
     box-sizing: border-box;
 }
 
+a {
+    text-decoration: none;
+}
+
 li {
     list-style: none;
 }
 
 body {
     color: $brown;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
 }
 
 .central {

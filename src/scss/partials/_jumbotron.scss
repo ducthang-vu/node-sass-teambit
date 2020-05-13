@@ -1,0 +1,25 @@
+.jumbotron {
+
+    .container {
+        padding-top: 115px;
+
+        .jumbotron-left,
+        .jumbotron-right {
+            flex-basis: 50%;
+            height: 450px;
+        }
+
+        .jumbotron-left h1 {
+            margin-bottom: 45px;
+            padding-right: 15px;
+            font-size: 50px;
+            font-weight: 600;
+        }
+
+        .jumbotron-right {
+            background-image: url('../../../dist/img/illustration-main.jpg');
+            background-size: cover;
+        }
+    }
+}
+
