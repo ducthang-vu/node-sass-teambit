@@ -1,0 +1,12 @@
+.footer {
+    .footer-left {
+        flex-basis: 300px;
+    }
+
+    .list-box {
+        flex-basis: calc(100% - 300px / 5)
+    }
+}
+
+
+
