@@ -1,5 +1,11 @@
 .main-section {
-    padding: 88px 0;
+    padding-top: 88px;
+
+    h2 {
+        padding-bottom: 82px;
+        width: 628px;
+        line-height: 200%;
+    }
 
     .row {
         width: 860px;
@@ -8,7 +14,46 @@
             flex-basis: 33%;
 
             img {
+                display: block;
                 width: 140px;
+                height: 105px;
+            }
+
+            &:first-child img {
+                margin-top: 10px;
+                margin-bottom: 10px;
+                height: 85px;
+            }
+
+            p {
+                margin-top: 25px;
+                padding: 0 5px;
+                font-size: 18px;
+                line-height: 150%;
+            }
+        }
+
+        & > img {
+            margin-top: 100px;
+            margin-bottom: 110px;
+            width: 280px;
+            height: 286px;
+        }
+    }
+
+    .container:nth-child(2) {
+        padding-top: 85px;
+        border-top: 1px solid #bdb5af;
+
+        .box:first-child {
+            img {
+                width: 140px;
+            }
+        }
+
+        .box:nth-child(3) {
+            img {
+                width: 60px;
             }
         }
     }
