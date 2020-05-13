@@ -16,6 +16,7 @@ body {
     color: $brown;
     font-family: 'Open Sans', sans-serif;
     font-size: 13px;
+    background-color: $background-light;
 }
 
 .central {
@@ -33,4 +34,8 @@ body {
 
 .dropdown-menu {
     display: none;
+}
+
+.background-dark {
+    background-color: $background-dark;
 }
