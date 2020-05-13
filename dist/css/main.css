@@ -19,6 +19,10 @@ body {
   background-color: #fff;
 }
 
+.block {
+  display: block;
+}
+
 .central {
   margin: 0 auto;
 }
@@ -237,6 +241,75 @@ body {
 
 .large-container .column img {
   width: 270px;
+}
+
+.third-main-section {
+  padding-top: 90px;
+}
+
+.third-main-section h2 {
+  font-size: 250%;
+  font-weight: 800;
+  line-height: 200%;
+}
+
+.third-main-section .box {
+  position: relative;
+  margin-top: 65px;
+  padding: 20px 20px 20px 40px;
+  width: 620px;
+  background-color: #fff;
+  color: #58402c;
+  border-radius: 5px;
+  border: 1px solid #bdb5af;
+}
+
+.third-main-section .box::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translateY(-55%);
+  background-image: url(/images/quote.svg?5f772fbacfe1810d668f05dd72343316);
+  background-size: cover;
+  width: 37px;
+  height: 39px;
+}
+
+.third-main-section .box .quote {
+  font-size: 110%;
+  line-height: 150%;
+}
+
+.third-main-section .box .quote:not(:last-child) {
+  margin-bottom: 35px;
+}
+
+.third-main-section .box .quote:last-child {
+  margin-bottom: 25px;
+}
+
+.third-main-section .box .row {
+  align-items: center;
+}
+
+.third-main-section .box .row .pic {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+
+.third-main-section .box .row .pic img {
+  width: 100%;
+  height: 100%;
+}
+
+.third-main-section .box .row .pic:nth-child(2) {
+  margin: 0 15px;
+}
+
+.third-main-section .box .row .signature {
+  flex-direction: column;
 }
 
 .footer {

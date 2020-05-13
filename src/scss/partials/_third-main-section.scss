@@ -1,0 +1,69 @@
+.third-main-section {
+    padding-top: 90px;
+
+    h2 {
+        font-size: 250%;
+        font-weight: 800;
+        line-height: 200%;
+    }
+
+    .box {
+        position: relative;
+        margin-top: 65px;
+        padding: 20px 20px 20px 40px;
+        width: 620px;
+        background-color: #fff;
+        color: $brown;
+        border-radius: 5px;
+        border: 1px solid #bdb5af;
+
+        &::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            transform: translateY(-55%);
+            background-image: url(../../../dist/img/quote.svg);
+            background-size: cover;
+            width: 37px;
+            height: 39px;
+        }
+
+        .quote {
+            font-size: 110%;
+            line-height: 150%;
+
+            &:not(:last-child) {
+                margin-bottom: 35px
+            }
+
+            &:last-child {
+            margin-bottom: 25px;
+        }
+        }
+
+
+        .row {
+            align-items: center;
+
+            .pic {
+                width: 35px;
+                height: 35px;
+                border-radius: 50%;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+
+                &:nth-child(2) {
+                    margin: 0 15px;
+                }
+            }
+
+            .signature {
+                flex-direction: column;
+            }
+        }
+    }
+}
