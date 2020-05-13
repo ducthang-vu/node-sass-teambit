@@ -1,0 +1,48 @@
+.header .container{
+    border-bottom: 1px solid $brown;
+    padding: 20px 0;
+
+    .row {
+        justify-content: space-between;
+        height: 35px;
+
+        .nav-bar {
+            height: 100%;
+            align-items: center;
+
+            & > li {
+            height: 100%;
+
+                & > button,
+                & > div {
+                    height: 100%;
+                    margin-left: 20px;
+                    padding: 0 10px;
+                }
+
+                .dropdown-title {
+                    align-items: center;
+                    
+                    i {
+                        margin-left: 5px;
+                    }
+                }
+            }
+
+            & .sign-btn {
+                align-items: center;
+                border-radius: 10px;
+
+                &:hover {
+                    background: blue;
+                }
+
+                img {
+                    width: 20px;
+                    margin-right: 5px;
+                }
+            }
+        }
+    }
+}
+

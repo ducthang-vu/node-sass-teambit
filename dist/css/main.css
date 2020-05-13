@@ -4,4 +4,77 @@
   box-sizing: border-box;
 }
 
+li {
+  list-style: none;
+}
+
+body {
+  color: #58402c;
+}
+
+.central {
+  margin: 0 auto;
+}
+
+.container {
+  width: 90%;
+  max-width: 1150px;
+}
+
+.flex {
+  display: flex;
+}
+
+.dropdown-menu {
+  display: none;
+}
+
+.header .container {
+  border-bottom: 1px solid #58402c;
+  padding: 20px 0;
+}
+
+.header .container .row {
+  justify-content: space-between;
+  height: 35px;
+}
+
+.header .container .row .nav-bar {
+  height: 100%;
+  align-items: center;
+}
+
+.header .container .row .nav-bar > li {
+  height: 100%;
+}
+
+.header .container .row .nav-bar > li > button,
+.header .container .row .nav-bar > li > div {
+  height: 100%;
+  margin-left: 20px;
+  padding: 0 10px;
+}
+
+.header .container .row .nav-bar > li .dropdown-title {
+  align-items: center;
+}
+
+.header .container .row .nav-bar > li .dropdown-title i {
+  margin-left: 5px;
+}
+
+.header .container .row .nav-bar .sign-btn {
+  align-items: center;
+  border-radius: 10px;
+}
+
+.header .container .row .nav-bar .sign-btn:hover {
+  background: blue;
+}
+
+.header .container .row .nav-bar .sign-btn img {
+  width: 20px;
+  margin-right: 5px;
+}
+
 
