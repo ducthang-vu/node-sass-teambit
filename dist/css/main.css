@@ -213,4 +213,12 @@ body {
   width: 60px;
 }
 
+.footer .footer-left {
+  flex-basis: 300px;
+}
+
+.footer .list-box {
+  flex-basis: calc(100% - 300px / 5);
+}
+
 
