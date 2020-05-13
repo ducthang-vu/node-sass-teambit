@@ -101,10 +101,15 @@ body {
 }
 
 .jumbotron .container .jumbotron-left h1 {
-  margin-bottom: 45px;
   padding-right: 15px;
   font-size: 50px;
   font-weight: 600;
+}
+
+.jumbotron .container .jumbotron-left p {
+  margin: 45px 0;
+  font-size: 20px;
+  line-height: 150%;
 }
 
 .jumbotron .container .jumbotron-right {

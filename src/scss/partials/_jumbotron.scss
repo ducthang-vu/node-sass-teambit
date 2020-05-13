@@ -9,11 +9,20 @@
             height: 450px;
         }
 
-        .jumbotron-left h1 {
-            margin-bottom: 45px;
-            padding-right: 15px;
-            font-size: 50px;
-            font-weight: 600;
+        .jumbotron-left {
+            h1 {
+                padding-right: 15px;
+                font-size: 50px;
+                font-weight: 600;
+            }
+
+            p {
+                margin: 45px 0;
+                font-size: 20px;
+                line-height: 150%;
+            }
+
+            .row 
         }
 
         .jumbotron-right {
