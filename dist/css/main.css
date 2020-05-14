@@ -312,6 +312,10 @@ body {
   .jumbotron .container .jumbotron-left .jumbotron-text {
     margin: 45px 0;
   }
+
+  .jumbotron .container .jumbotron-left .sign-up-block .sign-up-row {
+    justify-content: start;
+  }
 }
 
 .first-main-section {
@@ -325,11 +329,12 @@ body {
 }
 
 .first-main-section .row {
-  width: 860px;
+  max-width: 860px;
+  flex-wrap: wrap;
 }
 
 .first-main-section .row .box {
-  flex-basis: 33%;
+  flex-basis: 100%;
 }
 
 .first-main-section .row .box img {
@@ -369,6 +374,12 @@ body {
 
 .first-main-section .container:nth-child(2) .box:nth-child(3) img {
   width: 60px;
+}
+
+@media screen and (min-width: 768px) {
+  .first-main-section .row .box {
+    flex-basis: 33%;
+  }
 }
 
 .large-container {

@@ -8,10 +8,11 @@
     }
 
     .row {
-        width: 860px;
+        max-width: 860px;
+        flex-wrap: wrap;
 
         .box {
-            flex-basis: 33%;
+            flex-basis: 100%;
 
             img {
                 display: block;
@@ -54,6 +55,16 @@
         .box:nth-child(3) {
             img {
                 width: 60px;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: $medium) {
+    .first-main-section {
+        .row {
+            .box {
+                flex-basis: 33%;
             }
         }
     }

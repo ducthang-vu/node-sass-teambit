@@ -32,7 +32,7 @@
 
                 .sign-up-row {
                     justify-content: center;
-            }
+                }
             }
         }
 
@@ -59,6 +59,12 @@
 
                 .jumbotron-text {
                     margin: 45px 0;
+                }
+
+                .sign-up-block {
+                    .sign-up-row {
+                        justify-content: start;
+                    }
                 }
             }
         }
