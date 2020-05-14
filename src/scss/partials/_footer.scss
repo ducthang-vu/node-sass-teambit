@@ -37,6 +37,10 @@
     
             li {
                 line-height: 250%;
+
+                &:hover {
+                    color: $blue;
+                }
             }
         }
     }
