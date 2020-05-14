@@ -463,6 +463,10 @@ body {
   .large-container .column img {
     margin-left: 40px;
   }
+
+  .large-container:nth-child(2n) > .column {
+    order: -1;
+  }
 }
 
 .third-main-section {
