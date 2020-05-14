@@ -318,6 +318,10 @@ body {
   .header .container {
     padding: 20px 0;
   }
+
+  .header .container .row {
+    width: 100%;
+  }
 }
 
 .jumbotron .container {

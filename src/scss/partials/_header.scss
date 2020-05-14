@@ -142,5 +142,9 @@
 @media screen and (min-width: 768px) {
     .header .container{
         padding: 20px 0;
+
+        .row {
+            width: 100%;
+        }
     }
 }
