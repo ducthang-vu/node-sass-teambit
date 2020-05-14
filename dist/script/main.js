@@ -10961,6 +10961,10 @@ jquery__WEBPACK_IMPORTED_MODULE_0___default()(document).ready(function () {
     jquery__WEBPACK_IMPORTED_MODULE_0___default()('#ham-menu').toggle();
     jquery__WEBPACK_IMPORTED_MODULE_0___default()('#ham-btn').children('i').toggleClass('fa-bars fa-times');
   });
+  jquery__WEBPACK_IMPORTED_MODULE_0___default()('#chat-btn').click(function () {
+    jquery__WEBPACK_IMPORTED_MODULE_0___default()('#chat-btn').children('img').toggle();
+    jquery__WEBPACK_IMPORTED_MODULE_0___default()('#chat-btn').children('i').toggleClass('active');
+  });
 });
 })();
 

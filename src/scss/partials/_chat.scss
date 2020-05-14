@@ -1,4 +1,4 @@
-.chat {
+.chat-btn {
     position: fixed;
     right: 30px;
     bottom: 30px;
@@ -8,10 +8,31 @@
     border-radius: 50%;
     justify-content: center;
     align-items: center;
+    color: #fff;
 
     img {
         margin-right: 1px;
         width: 30px;
         height: 40px;
+    }
+
+    i {
+        display: none;
+        font-size: 200%;
+    }
+
+    i.active {
+        display: block;
+        animation: rotation 0.2s linear;
+    }
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(-45deg);
+    }
+
+    to {
+        transform: rotate(0);
     }
 }
