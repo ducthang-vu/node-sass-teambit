@@ -4,7 +4,7 @@
 
     .container {
         flex-wrap: wrap;
-        
+
         .footer-left {
             flex-basis: 100%;
             font-weight: 600;
@@ -40,7 +40,7 @@
 }
 
 
-@media creen and (min-with: $large) {
+@media screen and (min-width: $large) {
     .footer {
         .container {
             .footer-left {
