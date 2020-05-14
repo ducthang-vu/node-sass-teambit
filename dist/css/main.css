@@ -99,6 +99,7 @@ body {
   background: #30488f;
   color: white;
   border-radius: 10px;
+  cursor: pointer;
 }
 
 .sign-up-row a img {
@@ -106,8 +107,16 @@ body {
   margin-right: 5px;
 }
 
+.sign-up-row a:hover {
+  background: #233569;
+}
+
 .sign-up-row span {
   margin: 0 20px;
+}
+
+.sign-up-row .mail-link:hover {
+  color: #30488f;
 }
 
 .chat-btn {
