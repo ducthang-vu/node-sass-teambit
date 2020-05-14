@@ -12,5 +12,6 @@ $(document).ready(function () {
     $('#chat-btn').click(() => {
         $('#chat-btn').children('img').toggle()
         $('#chat-btn').children('i').toggleClass('active')
+        $('#chat-box').toggle()
     })
 });

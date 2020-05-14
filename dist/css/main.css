@@ -126,10 +126,26 @@ body {
   color: #30488f;
 }
 
-.chat-btn {
+.chat-section {
+  display: inline-block;
   position: fixed;
   right: 30px;
   bottom: 30px;
+}
+
+.chat-section .chat-box {
+  display: none;
+  position: absolute;
+  height: 460px;
+  width: 360px;
+  top: -480px;
+  left: -300px;
+  border-radius: 10px;
+  overflow: auto;
+  background-color: green;
+}
+
+.chat-section .chat-btn {
   background: #30488f;
   width: 60px;
   height: 60px;
@@ -139,18 +155,18 @@ body {
   color: #fff;
 }
 
-.chat-btn img {
+.chat-section .chat-btn img {
   margin-right: 1px;
   width: 30px;
   height: 40px;
 }
 
-.chat-btn i {
+.chat-section .chat-btn i {
   display: none;
   font-size: 200%;
 }
 
-.chat-btn i.active {
+.chat-section .chat-btn .active {
   display: block;
   -webkit-animation: rotation 0.2s linear;
           animation: rotation 0.2s linear;

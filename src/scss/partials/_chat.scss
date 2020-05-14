@@ -1,29 +1,45 @@
-.chat-btn {
-    position: fixed;
-    right: 30px;
-    bottom: 30px;
-    background: $blue;
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    justify-content: center;
-    align-items: center;
-    color: #fff;
+.chat-section {
+        display: inline-block;
+        position: fixed;
+        right: 30px;
+        bottom: 30px;
 
-    img {
-        margin-right: 1px;
-        width: 30px;
-        height: 40px;
-    }
-
-    i {
+    .chat-box {
         display: none;
-        font-size: 200%;
+        position: absolute;
+        height: 460px;
+        width: 360px;
+        top: -480px;
+        left: -300px;
+        border-radius: 10px;
+        overflow: auto;
+        background-color: green;
     }
 
-    i.active {
-        display: block;
-        animation: rotation 0.2s linear;
+    .chat-btn {
+        background: $blue;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+
+        img {
+            margin-right: 1px;
+            width: 30px;
+            height: 40px;
+        }
+
+        i {
+            display: none;
+            font-size: 200%;
+        }
+
+        .active {
+            display: block;
+            animation: rotation 0.2s linear;
+        }
     }
 }
 
