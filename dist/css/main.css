@@ -52,6 +52,30 @@ body {
   background-color: #ffe7d2;
 }
 
+.sign-up-row {
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.sign-up-row a {
+  display: inline-flex;
+  align-items: center;
+  padding: 5px 10px;
+  height: 35px;
+  background: #30488f;
+  color: white;
+  border-radius: 10px;
+}
+
+.sign-up-row a img {
+  width: 15px;
+  margin-right: 5px;
+}
+
+.sign-up-row span {
+  margin: 0 20px;
+}
+
 .header .container {
   border-bottom: 1px solid #bdb5af;
   padding: 20px 0;
@@ -109,7 +133,7 @@ body {
 
 .jumbotron .container {
   padding-top: 115px;
-  padding-bottom: 140px;
+  padding-bottom: 80px;
 }
 
 .jumbotron .container .jumbotron-left,
@@ -131,32 +155,13 @@ body {
   line-height: 150%;
 }
 
-.jumbotron .container .jumbotron-left .row {
-  align-items: center;
-}
-
-.jumbotron .container .jumbotron-left .row a {
-  display: inline-flex;
-  align-items: center;
-  padding: 5px 10px;
-  height: 35px;
-  background: #30488f;
-  color: white;
-  border-radius: 10px;
-}
-
-.jumbotron .container .jumbotron-left .row a img {
-  width: 15px;
-  margin-right: 5px;
-}
-
-.jumbotron .container .jumbotron-left .row span {
-  margin: 0 20px;
-}
-
 .jumbotron .container .jumbotron-left .jumbotron-text:last-of-type {
   margin: 25px 0;
   font-size: 14px;
+}
+
+.jumbotron .container .jumbotron-left .sign-up-block {
+  margin-top: 45px;
 }
 
 .jumbotron .container .jumbotron-right {
@@ -245,6 +250,7 @@ body {
 
 .third-main-section {
   padding-top: 90px;
+  padding-bottom: 55px;
 }
 
 .third-main-section h2 {
@@ -310,6 +316,14 @@ body {
 
 .third-main-section .box .row .signature {
   flex-direction: column;
+}
+
+.third-main-section .sign-up-block {
+  margin-top: 35px;
+}
+
+.third-main-section .sign-up-block .sign-up-row {
+  justify-content: center;
 }
 
 .footer {

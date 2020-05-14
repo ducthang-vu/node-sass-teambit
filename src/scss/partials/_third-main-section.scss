@@ -1,5 +1,6 @@
 .third-main-section {
     padding-top: 90px;
+    padding-bottom: 55px;
 
     h2 {
         font-size: 250%;
@@ -64,6 +65,14 @@
             .signature {
                 flex-direction: column;
             }
+        }
+    }
+
+    .sign-up-block {
+        margin-top: 35px;
+
+        .sign-up-row {
+        justify-content: center;
         }
     }
 }

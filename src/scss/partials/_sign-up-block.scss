@@ -1,0 +1,23 @@
+.sign-up-row  {
+    align-items: center;
+    margin-bottom: 25px;
+
+    a {
+        display: inline-flex;
+        align-items: center;
+        padding: 5px 10px;
+        height: 35px;
+        background: $blue;
+        color: white;
+        border-radius: 10px;
+
+        img {
+            width: 15px;
+            margin-right: 5px;
+        }
+    }
+
+    span {
+        margin: 0 20px;
+    }
+}
