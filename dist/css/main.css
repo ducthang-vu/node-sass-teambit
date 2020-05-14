@@ -184,7 +184,7 @@ body {
   background: #fff;
   box-shadow: 0 0 10px #bbb;
   border-radius: 10px;
-  line-height: 250%;
+  line-height: 350%;
   font-weight: 600;
 }
 
@@ -237,7 +237,7 @@ body {
   align-items: center;
   height: 35px;
   border-radius: 10px;
-  border: 1px solid blue;
+  border: 1px solid #30488f;
   color: #30488f;
   width: 100%;
 }
