@@ -26,7 +26,11 @@
         margin: 0 20px;
     }
 
-    .mail-link:hover {
-        color: $blue;
+    .mail-link {
+        cursor: pointer;
+
+        &:hover {
+            color: $blue;
+        }
     }
 }
