@@ -1,4 +1,5 @@
 .header .container{
+    position: relative;
     width: 100%;
     border-bottom: 1px solid #bdb5af;
     padding: 10px 0;
@@ -95,13 +96,50 @@
             }
         }
     }
+
+    .hamburger-menu {
+        display: none;
+        position: absolute;
+        top: 56px;
+        padding: 10px 5% 15px;
+        z-index: 1;
+        background-color: #fff;
+        width: 100%;
+        color: $brown;
+        font-size: 120%;
+        font-weight: 600;
+        box-shadow: 0 3px 1px rgba(187, 187, 187, 0.5);
+
+        li {
+            line-height: 200%;
+        }
+
+        .hamb-sign-up-btn {
+            margin-top: 20px;
+            justify-content: center;
+            align-items: center;
+            height: 35px;
+            border-radius: 10px;
+            border: 1px solid blue;
+            color: $blue;
+            width: 100%;
+
+            &:hover {
+                background: $blue;
+                color: #fff;
+            }
+
+            img {
+                margin-right: 10px;
+                width: 15px;
+            }
+        }
+    }
 }
 
 
 @media screen and (min-width: 768px) {
     .header .container{
         padding: 20px 0;
-    
-
     }
 }

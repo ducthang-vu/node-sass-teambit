@@ -47,6 +47,10 @@ body {
   display: flex;
 }
 
+.in-flex {
+  display: inline-flex;
+}
+
 .in-block {
   display: inline-block;
 }
@@ -108,6 +112,7 @@ body {
 }
 
 .header .container {
+  position: relative;
   width: 100%;
   border-bottom: 1px solid #bdb5af;
   padding: 10px 0;
@@ -204,6 +209,45 @@ body {
 .header .container .row .nav-bar .nav-bar-list .sign-btn img {
   width: 15px;
   margin-right: 5px;
+}
+
+.header .container .hamburger-menu {
+  display: none;
+  position: absolute;
+  top: 56px;
+  padding: 10px 5% 15px;
+  z-index: 1;
+  background-color: #fff;
+  width: 100%;
+  color: #58402c;
+  font-size: 120%;
+  font-weight: 600;
+  box-shadow: 0 3px 1px rgba(187, 187, 187, 0.5);
+}
+
+.header .container .hamburger-menu li {
+  line-height: 200%;
+}
+
+.header .container .hamburger-menu .hamb-sign-up-btn {
+  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+  height: 35px;
+  border-radius: 10px;
+  border: 1px solid blue;
+  color: #30488f;
+  width: 100%;
+}
+
+.header .container .hamburger-menu .hamb-sign-up-btn:hover {
+  background: #30488f;
+  color: #fff;
+}
+
+.header .container .hamburger-menu .hamb-sign-up-btn img {
+  margin-right: 10px;
+  width: 15px;
 }
 
 @media screen and (min-width: 768px) {

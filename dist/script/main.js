@@ -10956,7 +10956,12 @@ return jQuery;
 
 console.log('main.js is working');
 console.log('$');
-jquery__WEBPACK_IMPORTED_MODULE_0___default()(document).ready(function () {});
+jquery__WEBPACK_IMPORTED_MODULE_0___default()(document).ready(function () {
+  jquery__WEBPACK_IMPORTED_MODULE_0___default()('#ham-btn').click(function () {
+    jquery__WEBPACK_IMPORTED_MODULE_0___default()('#ham-menu').toggle();
+    jquery__WEBPACK_IMPORTED_MODULE_0___default()('#ham-btn').children('i').toggleClass('fa-bars fa-times');
+  });
+});
 })();
 
 (() => {
