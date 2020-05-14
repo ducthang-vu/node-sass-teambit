@@ -150,6 +150,10 @@ body {
   cursor: pointer;
 }
 
+.header .container .row .nav-bar .nav-bar-list > li:hover > * {
+  color: #30488f;
+}
+
 .header .container .row .nav-bar .nav-bar-list .dropdown-wrapper {
   position: relative;
   align-items: center;
@@ -175,6 +179,10 @@ body {
   border-radius: 10px;
   line-height: 250%;
   font-weight: 600;
+}
+
+.header .container .row .nav-bar .nav-bar-list .dropdown-wrapper .dropdown-menu li:hover > a {
+  color: #30488f;
 }
 
 .header .container .row .nav-bar .nav-bar-list .dropdown-wrapper:hover .dropdown-menu {

@@ -35,6 +35,10 @@
                         padding: 0 10px;
                         cursor: pointer;
                     }
+
+                    &:hover > * {
+                        color: $blue;
+                    }
                 }
 
                 .dropdown-wrapper {
@@ -61,6 +65,10 @@
                         border-radius: 10px;
                         line-height: 250%;
                         font-weight: 600;
+
+                        li:hover > a {
+                            color: $blue;
+                        }
                     }
                 
                     &:hover .dropdown-menu {
