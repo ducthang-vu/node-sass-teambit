@@ -8,6 +8,17 @@ a {
     text-decoration: none;
 }
 
+button,
+button:hover,
+button:focus {
+    background: inherit;
+    color: inherit;
+    border: 0;
+    box-shadow: 0;
+    outline: 0;
+    cursor: pointer;
+}
+
 li {
     list-style: none;
 }
@@ -44,10 +55,30 @@ body {
     text-align: center;
 }
 
-.dropdown-menu {
+.background-dark {
+    background-color: $background-dark;
+}
+
+
+/* MEDIA QUERY */
+.flex-m {
     display: none;
 }
 
-.background-dark {
-    background-color: $background-dark;
+.hide-m {
+    display: block;
+}
+
+@media screen and (min-width: $medium) {
+    .block-m {
+        display: block;
+    }
+
+    .flex-m {
+        display: flex;
+    }
+
+    .hide-m {
+        display: none;
+    }
 }

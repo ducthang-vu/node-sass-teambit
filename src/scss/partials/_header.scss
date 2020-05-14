@@ -1,55 +1,99 @@
 .header .container{
+    width: 100%;
     border-bottom: 1px solid #bdb5af;
-    padding: 20px 0;
+    padding: 10px 0;
 
     .row {
+        width: 90%;
         justify-content: space-between;
         height: 35px;
 
+        .hamburger {
+            width: 35px;
+            height: 35px;
+            font-size: 180%;
+            color: $brown;
+        }
+
         .nav-bar {
-            height: 100%;
             align-items: center;
 
-            & > li {
+            .nav-bar-list {
                 height: 100%;
-
-                & > a,
-                & > div {
-                    display: inline-flex;
-                    align-items: center;
+                align-items: center;
+    
+                & > li {
                     height: 100%;
-                    margin-left: 20px;
-                    padding: 0 10px;
-                    cursor: pointer;
                     font-weight: 600;
-                }
-
-                .dropdown-title {
-                    align-items: center;
-                    
-                    i {
-                        margin-left: 5px;
+    
+                    & > a,
+                    & > .dropdown-wrapper {
+                        display: inline-flex;
+                        align-items: center;
+                        height: 100%;
+                        margin-left: 20px;
+                        padding: 0 10px;
+                        cursor: pointer;
                     }
                 }
-            }
 
-            & .sign-btn {
-                align-items: center;
-                border: 1px solid $blue;
-                border-radius: 10px;
-                color: $blue;
+                .dropdown-wrapper {
+                    position: relative;
+                    align-items: center;
+                
+                    .dropdown-title {
+                        align-items: center;
 
-                &:hover {
-                    background: $blue;
-                    color: white;
+                        i {
+                            margin-left: 5px;
+                        }
+                    }
+                
+                    .dropdown-menu {
+                        display: none;
+                        position: absolute;
+                        left: 50%;
+                        top: 90%;
+                        transform: translateX(-50%);
+                        padding: 5px 35px 5px 15px;
+                        background: #fff;
+                        box-shadow: 0 0 10px #bbb;
+                        border-radius: 10px;
+                        line-height: 250%;
+                        font-weight: 600;
+                    }
+                
+                    &:hover .dropdown-menu {
+                        display: block;
+                    }
                 }
-
-                img {
-                    width: 15px;
-                    margin-right: 5px;
+    
+                & .sign-btn {
+                    align-items: center;
+                    border: 1px solid $blue;
+                    border-radius: 10px;
+                    color: $blue;
+    
+                    &:hover {
+                        background: $blue;
+                        color: white;
+                    }
+    
+                    img {
+                        width: 15px;
+                        margin-right: 5px;
+                    }
                 }
             }
         }
     }
 }
 
+
+@media screen and (min-width: 768px) {
+    .header .container{
+        padding: 20px 0;
+    
+
+    }
+}
