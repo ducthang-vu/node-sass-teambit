@@ -114,6 +114,10 @@
 
         li {
             line-height: 200%;
+            
+            &:hover {
+                color: $blue;
+            }
         }
 
         .hamb-sign-up-btn {

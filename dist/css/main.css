@@ -312,6 +312,10 @@ body {
   line-height: 200%;
 }
 
+.header .container .hamburger-menu li:hover {
+  color: #30488f;
+}
+
 .header .container .hamburger-menu .hamb-sign-up-btn {
   margin-top: 20px;
   justify-content: center;
